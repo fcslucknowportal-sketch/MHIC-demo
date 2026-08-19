@@ -1,1 +1,183 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MHIC Dashboard</title><link rel="stylesheet" href="assets/css/style.css"></head><body class="dashboard"><div class="dash-head"><div class="container"><b>MHIC Management Dashboard</b> <a href="index.html" style="float:right">Logout / Home</a></div></div><main class="container"><div class="dash-grid"><div class="dash-card"><h3>Students</h3><b>—</b><span>Demo data</span></div><div class="dash-card"><h3>Fees Collected</h3><b>₹ —</b><span>Demo data</span></div><div class="dash-card"><h3>Pending Dues</h3><b>₹ —</b><span>Demo data</span></div><div class="dash-card"><h3>Receipts</h3><b>—</b><span>Demo data</span></div></div><div class="panel"><h2>Quick Actions</h2><p><a class="btn" href="fees.html">Fees & Dues</a> <a class="btn secondary" href="index.html">View Public Website</a></p></div><div class="panel"><h2>Welcome</h2><p>यह demo dashboard है। Final PHP + MySQL system में Students, Fees & Dues, Payment Receipts और office reconciliation जोड़े जा सकते हैं।</p></div></main></body></html>
+<!doctype html>
+<html lang="hi">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>MHIC Management Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="dashboard-page">
+
+<header class="dashboard-header">
+    <div class="container dashboard-top">
+
+        <div class="dashboard-brand">
+            <div class="dashboard-logo">MHIC</div>
+            <div>
+                <h2>MHIC Management System</h2>
+                <p>Mohammad Hussain Inter College</p>
+            </div>
+        </div>
+
+        <a class="logout-btn" href="index.html">
+            ← Logout / Home
+        </a>
+
+    </div>
+</header>
+
+
+<main class="container dashboard-main">
+
+    <div class="welcome-box">
+        <div>
+            <h1>Welcome to Management Dashboard</h1>
+            <p>
+                विद्यालय प्रबंधन, Students, Fees & Dues और Payment Receipts
+                की जानकारी एक ही स्थान पर।
+            </p>
+        </div>
+
+        <div class="date-box">
+            <span>MHIC</span>
+            <small>Management Portal</small>
+        </div>
+    </div>
+
+
+    <section class="dash-grid">
+
+        <div class="dash-card students-card">
+            <div class="card-icon">👨‍🎓</div>
+            <div>
+                <span>Total Students</span>
+                <h2>—</h2>
+                <small>Demo Data</small>
+            </div>
+        </div>
+
+
+        <div class="dash-card fees-card">
+            <div class="card-icon">₹</div>
+            <div>
+                <span>Fees Collected</span>
+                <h2>₹ —</h2>
+                <small>Demo Data</small>
+            </div>
+        </div>
+
+
+        <div class="dash-card dues-card">
+            <div class="card-icon">⏳</div>
+            <div>
+                <span>Pending Dues</span>
+                <h2>₹ —</h2>
+                <small>Demo Data</small>
+            </div>
+        </div>
+
+
+        <div class="dash-card receipts-card">
+            <div class="card-icon">🧾</div>
+            <div>
+                <span>Payment Receipts</span>
+                <h2>—</h2>
+                <small>Demo Data</small>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="dashboard-section">
+
+        <h2>Quick Actions</h2>
+
+        <div class="quick-actions">
+
+            <a class="action-box" href="fees.html">
+                <span>💳</span>
+                <div>
+                    <strong>Fees & Dues</strong>
+                    <small>Fees, payments and pending dues</small>
+                </div>
+            </a>
+
+            <a class="action-box" href="#">
+                <span>👨‍🎓</span>
+                <div>
+                    <strong>Students</strong>
+                    <small>Add and manage student records</small>
+                </div>
+            </a>
+
+            <a class="action-box" href="#">
+                <span>🧾</span>
+                <div>
+                    <strong>Payment Receipts</strong>
+                    <small>View and print receipts</small>
+                </div>
+            </a>
+
+            <a class="action-box" href="index.html">
+                <span>🌐</span>
+                <div>
+                    <strong>Public Website</strong>
+                    <small>View MHIC school website</small>
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <section class="dashboard-section">
+
+        <h2>System Status</h2>
+
+        <div class="status-box">
+
+            <div class="status-item">
+                <span>✓</span>
+                <div>
+                    <strong>Student Management</strong>
+                    <small>Ready for final PHP + MySQL integration</small>
+                </div>
+            </div>
+
+            <div class="status-item">
+                <span>✓</span>
+                <div>
+                    <strong>Fees & Dues</strong>
+                    <small>Priority module for payments and reconciliation</small>
+                </div>
+            </div>
+
+            <div class="status-item">
+                <span>✓</span>
+                <div>
+                    <strong>Payment Receipts</strong>
+                    <small>Automatic receipt system planned</small>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer class="dashboard-footer">
+    <div class="container">
+        © 2026 Mohammad Hussain Inter College • MHIC Management System
+    </div>
+</footer>
+
+</body>
+</html>
