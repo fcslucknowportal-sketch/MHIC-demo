@@ -785,4 +785,25 @@ footer{
   .welcome-box h1{
     font-size:25px;
   }
+}@media(max-width:600px){
+
+  .person img{
+    width:100%;
+    height:auto;
+    object-fit:contain;
+    object-position:center;
+    background:#f5f5f5;
+  }
+
+  .gallery img{
+    width:100%;
+    height:auto;
+    object-fit:contain;
+  }
+
+  .about img{
+    width:100%;
+    height:auto;
+    object-fit:contain;
+  }
 }
