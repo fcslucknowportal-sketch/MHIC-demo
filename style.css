@@ -28,6 +28,47 @@ body{
 a{
   text-decoration:none;
   color:inherit;
+}/* MOBILE DESKTOP MODE FIX */
+@media(max-width:1100px){
+
+  nav{
+    display:none;
+  }
+
+  .stats{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .cards{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .gallery{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .about{
+    grid-template-columns:1fr;
+  }
+
+  .dash-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .quick-actions{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media(max-width:600px){
+
+  .stats,
+  .cards,
+  .gallery,
+  .dash-grid,
+  .quick-actions{
+    grid-template-columns:1fr;
+  }
 }
 
 .container{
